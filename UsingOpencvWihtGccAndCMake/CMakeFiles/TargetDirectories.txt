@@ -1,1 +1,0 @@
-/home/liangwei/opencv-tutorial/UsingOpencvWihtGccAndCMake/CMakeFiles/DisplayImage.dir
