@@ -1,1 +1,0 @@
-/home/liangwei/opencv-tutorial/image-processing/ErodAndDilat/build/src/CMakeFiles/ErodAndDilat.dir
