@@ -1,0 +1,6 @@
+
+FIND_PACKAGE(OpenCV REQUIRED)
+
+ADD_EXECUTABLE(ErodAndDilat erodAndDilat.cpp)
+
+TARGET_LINK_LIBRARIES(ErodAndDilat ${OpenCV_LIBS})

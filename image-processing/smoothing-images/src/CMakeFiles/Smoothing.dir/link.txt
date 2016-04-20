@@ -1,0 +1,1 @@
+g++       CMakeFiles/Smoothing.dir/Smoothing.cpp.o  -o ../bin/Smoothing  -L/home/liangwei/opencv-tutorial/image-processing/smoothing-images/lib -rdynamic 
