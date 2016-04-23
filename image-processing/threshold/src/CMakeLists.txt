@@ -1,0 +1,6 @@
+
+FIND_PACKAGE(OpenCV REQUIRED)
+
+ADD_EXECUTABLE(threshold threshold.cpp)
+
+TARGET_LINK_LIBRARIES(threshold ${OpenCV_LIBS})

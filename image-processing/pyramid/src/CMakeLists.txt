@@ -1,0 +1,6 @@
+
+FIND_PACKAGE(OpenCV REQUIRED)
+
+ADD_EXECUTABLE(pyramid pyramid.cpp)
+
+TARGET_LINK_LIBRARIES(pyramid ${OpenCV_LIBS})
