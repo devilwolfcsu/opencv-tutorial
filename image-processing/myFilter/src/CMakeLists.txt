@@ -1,0 +1,6 @@
+
+FIND_PACKAGE(OpenCV REQUIRED)
+
+ADD_EXECUTABLE(myFilter myFilter.cpp)
+
+TARGET_LINK_LIBRARIES(myFilter ${OpenCV_LIBS})
