@@ -1,0 +1,6 @@
+
+FIND_PACKAGE(OpenCV REQUIRED)
+
+ADD_EXECUTABLE(harris harris.cpp)
+
+TARGET_LINK_LIBRARIES(harris  ${OpenCV_LIBS})
