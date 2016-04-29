@@ -1,0 +1,6 @@
+
+FIND_PACKAGE(OpenCV REQUIRED)
+
+ADD_EXECUTABLE(makeBorder makeBorder.cpp)
+
+TARGET_LINK_LIBRARIES(makeBorder ${OpenCV_LIBS})
