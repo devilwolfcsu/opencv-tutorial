@@ -1,0 +1,6 @@
+
+FIND_PACKAGE(OpenCV REQUIRED)
+
+ADD_EXECUTABLE(canny canny.cpp)
+
+TARGET_LINK_LIBRARIES(canny  ${OpenCV_LIBS})
