@@ -1,0 +1,6 @@
+
+FIND_PACKAGE(OpenCV REQUIRED)
+
+ADD_EXECUTABLE(affine affine.cpp)
+
+TARGET_LINK_LIBRARIES(affine  ${OpenCV_LIBS})
