@@ -1,0 +1,6 @@
+
+FIND_PACKAGE(OpenCV REQUIRED)
+
+ADD_EXECUTABLE(calcHist calcHist.cpp)
+
+TARGET_LINK_LIBRARIES(calcHist  ${OpenCV_LIBS})
