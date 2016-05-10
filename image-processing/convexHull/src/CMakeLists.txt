@@ -1,0 +1,6 @@
+
+FIND_PACKAGE(OpenCV REQUIRED)
+
+ADD_EXECUTABLE(convexHull convexHull.cpp)
+
+TARGET_LINK_LIBRARIES(convexHull  ${OpenCV_LIBS})
